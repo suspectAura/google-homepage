@@ -1,0 +1,91 @@
+#navbarList {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+li {
+	display: inline-block;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+	font-family: Arial;
+	font-color: #000000;
+}
+#appDrawer {
+	border: 1px solid #A3A3A3;
+	background-color: #666666;
+	height: 20px;
+	width: 20px;
+	margin-top: 4px;
+}
+#notifier {
+	border: 1px solid #A3A3A3;
+	background-color: #666666;
+	height: 20px;
+	width: 20px;
+	margin-top: 4px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+#shareSquare {
+	position: relative;
+	top: -15px;
+	border-radius: 2px;
+	border: 2px solid #6495ED;
+	background-color: #bcd2EE;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+}
+#shareText {
+	position: relative;
+	top: 7px;
+}
+#socialCircle {
+	position: relative;
+	border-radius: 50%;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 30px;
+	width: 30px;
+}
+#searchInterface {
+	height: 119px;
+	width: 269px;
+
+	position: absolute;
+	top: -250px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+#mainLogo {
+	height: 95px;
+	width: 269px;
+}
+#buttonContainer {
+	height: auto;
+	width: 100%;
+}
+input[type=search] {
+	width: 200%;
+	margin-left: -50%;
+}
+#footer {
+	height: 20px;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+}
+#left {
+	position: absolute;
+	left: 0;
+}
+#right {
+	position: absolute;
+	right: 0;
+}
